@@ -1,0 +1,41 @@
+/* Style for all <h1> elements */
+h1 {
+  font-size: 20;
+}
+
+/* Style for paragraph with class 'p2' */
+.p2 {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style for all normal and visited <a> links */
+a:link, a:visited {
+color: rgb(255, 255, 255);        /* White text color */
+padding: 0px 15px;                /* Horizontal padding around links */
+text-align: center;               /* Center text inside links */
+text-decoration: none;            /* Remove underline */
+display: inline-block;            /* Allow block-like styling */
+position: relative;               /* Positioning context for movement */
+top: -70px;                       /* Move links 70px upward */
+} 
+
+/* General body styling */
+body {
+font-family: Arial, Helvetica, sans-serif;  /* Set body font */
+background-color: black;                    /* Set background to black */
+}
+
+/* Center content inside the 'image' container */
+.image {
+text-align: center;
+}
+
+/* Style for the element with id 'example2' */
+#example2 {
+border: 2px solid black;                      /* Black border */
+padding: 25px;                                /* Inner spacing */
+background: url(gt\ wallpaper.jpg);           /* Background image */
+background-repeat: no-repeat;                 /* Don't repeat image */
+background-size: 400px 500px;                 /* Scale background */
+background-position: center;                  /* Center the image */
+}
